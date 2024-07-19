@@ -7,5 +7,4 @@ ENV PATH="$MOJO_PATH/bin:$PATH"
 RUN sudo apt-get update
 RUN sudo apt-get install -y clang
 RUN curl -s https://get.modular.com | sh -
-RUN modular auth --no-browser
 RUN modular install nightly/mojo
